@@ -100,10 +100,10 @@ public class Consola {
 	
 	public static int elegirPasos(){
 		int pasos;
-		System.out.println("Selecciona el número de paso a mover del 1 al 7.");
+		System.out.println("Selecciona el número de paso a mover del 1 al 8.");
 		do {
 			pasos=Entrada.entero();
-		}while(pasos<1||pasos>7);
+		}while(pasos<1||pasos>8);
 		
 		return pasos;
 	}
